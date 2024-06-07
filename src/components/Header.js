@@ -2,7 +2,10 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../assets/logo.svg';
+import navIcon1 from '../assets/nav-icon1.svg';
+import navIcon2 from '../assets/nav-icon2.svg';
+import navIcon3 from '../assets/nav-icon3.svg';
 
 function Header() {
   const [activeLink, setActiveLink] = useState('home');
@@ -30,7 +33,7 @@ function Header() {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src='' alt='Logo'/>
+          <img src={logo} alt='Logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <span className="navbar-toggler-icon"></span>
@@ -43,9 +46,9 @@ function Header() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img /></a>
-              <a href="#"><img /></a>
-              <a href="#"><img /></a>
+              <a href="#"><img src={navIcon1}/></a>
+              <a href="#"><img src={navIcon2}/></a>
+              <a href="#"><img src={navIcon3}/></a>
             </div>
             <button className="sample" onClick={() => console.log("button clicked!")}>Contact Me</button>
           </span>
