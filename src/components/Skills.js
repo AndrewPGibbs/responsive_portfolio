@@ -1,6 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import meter1 from "../assets/meter1.svg"
+import meter2 from "../assets/meter2.svg"
+import meter3 from "../assets/meter3.svg"
+import colorSharp from "../assets/arrow1.svg"
 
 
 const Skills = () => {
