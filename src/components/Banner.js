@@ -57,7 +57,11 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi I'm Andrew, a `}<span className="wrap">{text}</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Hey there! I'm Andrew, a passionate web developer with a knack for bringing ideas to life through code. I specialize in creating engaging and dynamic applications using the MERN stack (MongoDB, Express, React, Node.js) and have a keen eye for clean, efficient, and maintainable code. I’m constantly exploring new technologies and pushing my own boundaries to build solutions that not only work but stand out.
+
+When I'm not coding, you can find me diving into fantasy worlds, playing games, or delving into new realms of tech and design. I love collaborating with others and am always up for a good challenge. Whether it’s designing an AI-powered D&D assistant or refining the perfect UI, I’m driven by curiosity and a genuine love for problem-solving.
+
+Feel free to take a look around and reach out if you'd like to connect or work together!</p>
                         <button onClick={() => console.log('button pressed')}>Lets Connect <ArrowRightCircle size={25}/></button> 
               </div>}
             </TrackVisibility>
